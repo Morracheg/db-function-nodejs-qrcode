@@ -1,5 +1,5 @@
 packages:
-  - name: qr
+  - name: db
     actions:
-      - name: qr 
+      - name: db 
         runtime: nodejs:default

@@ -5,12 +5,12 @@ spec:
   functions:
   - git:
       branch: main
-      repo_clone_url: https://github.com/digitalocean/sample-functions-nodejs-qrcode
-    name: qrcode
+      repo_clone_url: https://github.com/Morracheg/db-function-nodejs-qrcode
+    name: dbmrg
     routes:
     - path: /api
     source_dir: /
-  name: qrcode-app
+  name: db-app
   static_sites:
   - build_command: ./build.sh
     environment_slug: html
